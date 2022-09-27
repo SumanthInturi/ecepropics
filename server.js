@@ -4,6 +4,7 @@ const app = express();
 const port = process.env.PORT;
 app.set("view engine", "ejs");
 app.use(bodyparser.urlencoded({ extended: true }));
+//nfjnjnjnj
 app.use(express.static(__dirname + "/public"));
 app.post("/pro", (req, res) => {
   let code = 3791;
